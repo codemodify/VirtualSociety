@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dataSet" targetNamespace="http://www.tempuri.org/dataSet.xsd" xmlns:mstns="http://www.tempuri.org/dataSet.xsd" xmlns="http://www.tempuri.org/dataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dataSet" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="VIEW_BUGS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProjectID" type="xs:int" />
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Priority" type="xs:string" minOccurs="0" />
+              <xs:element name="Severity" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="Assigned" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" />
+              <xs:element name="Color" type="xs:string" minOccurs="0" />
+              <xs:element name="TITLE" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Projects">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDProject" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Projects" />
+      <xs:field xpath="mstns:IDProject" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

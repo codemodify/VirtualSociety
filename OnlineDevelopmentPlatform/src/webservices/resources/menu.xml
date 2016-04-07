@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<menuFile>
+	<menuitem label="New Project" instanceName="newProject" />
+	<menuitem label="Open Project" instanceName="openProject" />
+	<menuitem label="Close Project"	instanceName="closeProject" />
+	<menuitem label="" type="separator" />
+	
+	<menuitem label="New File" instanceName="newFile" />
+	<menuitem label="Save File" instanceName="saveFile" />	
+	<menuitem label="Close File" instanceName="closeFile" />
+	<menuitem label="" type="separator" />
+	
+	<menuitem label="Exit" instanceName="exit" />
+</menuFile>
+<menuBuild>
+	<menuitem label="Compile" instanceName="compile" />
+	<menuitem label="Run" instanceName="run" />
+</menuBuild>
+<menuProject>
+	<menuitem label="Add To Project" instanceName="addToProject" />
+	<menuitem label="RemoveFrom Project" instanceName="removeFromProject" />
+</menuProject>
+<menuSession>
+	<menuitem label="Logout" instanceName="logOut" />
+</menuSession>

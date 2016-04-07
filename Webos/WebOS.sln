@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebOS", "http://server/WebOS/WebOS.csproj", "{CA296E66-0AAB-4135-8B28-75FB352664F4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CA296E66-0AAB-4135-8B28-75FB352664F4}.Debug.ActiveCfg = Debug|.NET
+		{CA296E66-0AAB-4135-8B28-75FB352664F4}.Debug.Build.0 = Debug|.NET
+		{CA296E66-0AAB-4135-8B28-75FB352664F4}.Release.ActiveCfg = Release|.NET
+		{CA296E66-0AAB-4135-8B28-75FB352664F4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

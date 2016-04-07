@@ -1,0 +1,86 @@
+I'd like we to summarize what we have to do starting by now step by step,
+and to conclude what rules we are going to follow.
+
+(o)Communication language
+	*	Written language - english
+	*	In comments / documentation / disputes - are not allowed slangs (gonna, wanna etc) - this is forbidden.
+
+(o)For the moment we have the following paralel development branches:
+	*	The Online Programming Platform - assigned developers 2
+	*	The BUG Tracking System - assigned developers 1
+
+(o)Instruments to use, which tends to be a standard(minimal) installation set:
+	*	Microsoft Visual Studio .NET 2003 - used for development process
+			The following options should be installed:
+			*	Visual C++ (no)
+			*	Web Development ASP.NET (yes)
+			*	Visual C# (subject to change)
+			*	Win32 Platform SDK (no)
+			*	.NET Platform SDK (yes)
+			*	Remote Debugging (no)
+		or 
+		WebMatrix (more preferably than MSVS .NET) - used for development process
+	
+	*	MSDN (optionally) - yes if there is no continuous internet connection - used for platform dependent informations
+	*	Microsoft SQL Server 2000 Developer Edition - used as SGBD engine
+			Options to choose at instalatios steps:
+			*	Local Computer
+			*	Create a new instance of SQL Server
+			*	Server and Client Tools
+			*	Instance name: ALFAHOTBIRD
+			*	Setup type: Custom
+			*	Select Components
+				-	Server components - all
+				-	Management Tools  - only [Enterprize Manager, Profiler, Query Analyzer, Conflict Viewer]
+				-	Client Connectivity - no
+				-	Books Online - all
+				-	Development Tool - only [Headers and Libraries, MDAC SDK, Debugger Interface]
+				-	Code Samples - only [ESQLC, Misc, OLE Automation, SQLDMO, SQLNS, Utils, XML ]
+			*	Services Accounts 
+				-	Choose "Use the same account for each service"
+				-	Choose "Use the local system account"
+			*	Autentication Mode
+				-	Choose "Mixed Mode"
+				-	password: sql
+			*	Collation Settings
+				-	from combobox choose the "Latin1_General" (ANSI 1252)
+			*	Network Libraries - no changes				
+	*	Open Office 1.1 (or latest version) - used for documentation purposes
+	*	Ineternet Information Service - used as webserver
+		The following options should checked:
+		*	Common Files - yes
+		*	Documentation - no
+		*	FTP service - no
+		*	Front Page 200 Server Extentions - yes
+		*	IIS SnapIn - yes
+		*	SMTP service - yes
+		*	WWW Service - yes (all subcomponents)
+	*	Flash MX 2004 / Flash MX 2004 Professional - used for development process
+	*	Flash Remoting .NET for Action Script 2.0 - extension to facilitate the business logic
+	*	Flash Remoting component for Flsh MX Action Script 2.0 - extension to facilitate the business logic
+	
+(o)The purpose is to use these basic rules as a start, to have a standard framework at every developer's computer,
+with the scope to exclude the features issues bound to developing / synchronization ...
+Also if we want to prove a stable flowing work kind we have to use something like this, moreover if we want later
+to involve others developers.
+
+(o)Purposes
+
+*	Information synchronization
+Because from the start we suppose that any developer can be anywhere on the planet, to make him able to work it's
+proposed to create an email account especially where every developper will send reports, purposes, sync of documents
+and code, etc. The account should be a common one with a common password known to all developers.
+
+*	Projects working
+Every developer is working on all projects - it means the following: a develper have a project for which is responsible
+for, but at the same time if he have ideas about another project he can share his ideas with other team mates.
+More than this, he have a dutty to inform others about his basic(assigned) project - how it is moving. All development steps
+are discussed in common by all, and after everything is decided, ONLY then the developer is allowed to start to implement 
+that.
+
+
+PS:
+Any deviations from these could lead to unwanted results == waste fo time.
+Any ehancements/critics are welcome.
+
+Step2.swx (open office document) - should contain the detailed description of every component that should be developed.

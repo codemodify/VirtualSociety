@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<ConnectionString>user id=sa;password=sql;data source=S2;initial catalog=bugtracker</ConnectionString>

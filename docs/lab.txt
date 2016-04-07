@@ -1,0 +1,52 @@
+Portal de programare online
+
+1. Strategii, care ar fi utilitatea acestui portal ?
+
+Gratie dezvoltarii vitezii navigarii pe site-uri web, e foarte posibil ca in viitorul apropiat
+de programat direct intrun mediu online oferit de un site.
+
+In acest proiect as vrea sa aplic pentru crearea unui site de programare, initial primitiv insa
+care poate fi extins la ceva extrem de actual - o conglomerare de limbaje de programare sub o 
+platforma WEB unica.
+
+	Pentru a stabili strategia Internet, ar fi necesar initial de gindit la:
+	* Atribuirea obiectivelor ambitioase shi realizabile site-ului.
+	* Alegerea publicului si studierea cerintelor lor.
+
+2. Publicul destinatie
+
+Acest site, initial trebuie sa fie destinat pentru o mica parte a populatiei, care
+reprezinta developer-ii sau programatorii a diferitor limbaje de programare,
+utilizind diferite compilatoare.
+
+	Pentru a asigura ergonomia site-ului, el tebuie sa fie:
+	* Accessibil pentru toti
+	* Util pentru programatori
+	* Intutiv
+	* Credibil
+
+3. Obiectivele proiectului
+	* Posibilitate reala fara nici o limita, mijloc de conexiune Internet, 
+	  salvind bani necumparind compilatoare, etc.
+	* Un environment destinat pentru mai multe limbaje de programare, 
+	  respectiv utilizind mai multe compilatoare.
+	* Posibilitate de a comunica cu mai multi programatori, care participa in acelashi
+	  timp la alte proiecte.
+	* Posibilitate de a trimite un fisier la unu sau mai multe email-uri.
+	* Mobilitate globala, posibilitate de a lucra fara nici o limita, indiferent unde te afli.
+	* Accesibilitate directa la softul de care ai nevoie, fara a mai fi nevoie de a mai instala
+	  ceva pentru a lucra.
+	* etc.
+
+4. Etapele principale a proiectului
+	* Pentru a putea face site-ul trebuie sa alegem mediul de programare.
+	  Putem decide initial intre ASP .NET / Microsoft SQL Server si PHP / MySQL.
+	* Initial, pentru utilitate, sa-r putea de facut un site de programare in C/C++,
+	  care ar permite de a edita cod sursa. Acesta va fi compilat pe server, shi rezultatul
+	  va fi transmis inapoi la user.
+	* Mai tirziu site-ul poate fi dezvoltat, pentru a permite de a alege intre mai multe limbaje
+	  de programare, alegind intre optiunile site-ului. Siteul modificindu-se dinamic in dependenta
+	  de compilatorul ales.
+
+
+

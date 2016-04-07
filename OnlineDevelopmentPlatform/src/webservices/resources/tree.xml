@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<projects>
+  <project label="My Home Page" projectid="632d1d1b-21bd-4a47-9d0c-0a6dfdae6b68">
+    <file label="index.html" fileid="5a79dbcb-4380-4090-93b2-3c0963a13f81" projectid="632d1d1b-21bd-4a47-9d0c-0a6dfdae6b68" />
+    <file label="about.html" fileid="dbaaa0bf-8177-4b63-8a82-735e37488daa" projectid="632d1d1b-21bd-4a47-9d0c-0a6dfdae6b68" />
+  </project>
+  <project label="C++ Lab1" projectid="b822d3aa-89e5-4365-a943-68af0a3b54b8">
+    <file label="main.cpp" fileid="caa621ff-283b-497e-bb24-618981564188" projectid="b822d3aa-89e5-4365-a943-68af0a3b54b8" />
+  </project>
+</projects>

@@ -1,0 +1,74 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="m_dataSet" targetNamespace="http://www.tempuri.org/m_dataSet.xsd" xmlns:mstns="http://www.tempuri.org/m_dataSet.xsd" xmlns="http://www.tempuri.org/m_dataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="m_dataSet" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="PRIORITY">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="NAME" type="xs:string" />
+              <xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MESSAGES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="BUGID" type="xs:int" />
+              <xs:element name="USERID" msdata:DataType="System.Guid, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="CONTENT" type="xs:string" />
+              <xs:element name="POSTEDTIME" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="USERS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+              <xs:element name="FIRSTNAME" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VIEW_BUGS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProjectID" type="xs:int" />
+              <xs:element name="Title" type="xs:string" />
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Priority" type="xs:string" minOccurs="0" />
+              <xs:element name="Severity" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="Assigned" type="xs:string" minOccurs="0" />
+              <xs:element name="DESCRIPTION" type="xs:string" />
+              <xs:element name="Color" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VIEW_MESSAGES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CONTENT" type="xs:string" />
+              <xs:element name="POSTEDTIME" type="xs:dateTime" />
+              <xs:element name="BUGID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PRIORITY" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="MESSAGES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MESSAGES" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="USERS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:USERS" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
